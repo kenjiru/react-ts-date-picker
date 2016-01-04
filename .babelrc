@@ -1,0 +1,22 @@
+{
+	presets: ['es2015', 'react'],
+	plugins: [
+	  ["transform-es2015-modules-commonjs"],
+	  ['add-module-exports'],
+	  ['transform-object-rest-spread'],
+	  ['transform-class-properties'],
+	  ['transform-strict-mode'],
+	  ['react-transform', {
+	    transforms: [
+	      {
+	        transform: 'react-transform-hmr',
+	        imports: ['react'],
+	        locals: ['module'],
+	      }, {
+	        transform: 'react-transform-catch-errors',
+	        imports: ['react', 'redbox-react'],
+	      },
+	    ],
+	  }],
+	]
+}
