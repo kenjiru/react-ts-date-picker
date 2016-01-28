@@ -10,6 +10,18 @@
 		},
 		"react/react-dom.d.ts": {
 			"commit": "fa04c80f4a889613b96cb4f283848c61a9f64233"
+		},
+		"jquery/jquery.d.ts": {
+			"commit": "5d0f2126c8dac8fce0ff020218aea06607213b0d"
+		},
+		"bootstrap/bootstrap.d.ts": {
+			"commit": "5d0f2126c8dac8fce0ff020218aea06607213b0d"
+		},
+		"moment/moment.d.ts": {
+			"commit": "5d0f2126c8dac8fce0ff020218aea06607213b0d"
+		},
+		"moment/moment-node.d.ts": {
+			"commit": "5d0f2126c8dac8fce0ff020218aea06607213b0d"
 		}
 	}
 }

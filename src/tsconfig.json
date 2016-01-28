@@ -14,6 +14,7 @@
 	},
 	"files": [
 		"../typings/tsd.d.ts",
+		"../typings-custom/tsd.d.ts",
 		"App.tsx"
 	],
 	"exclude": [],
