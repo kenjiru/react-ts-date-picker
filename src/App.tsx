@@ -3,6 +3,7 @@ import * as ReactDOM from 'react-dom';
 import moment from "moment";
 
 import { daterangepicker } from 'bootstrap-daterangepicker';
+import DateRangePicker from "react-bootstrap-daterangepicker";
 
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap-daterangepicker/daterangepicker.css";
@@ -10,13 +11,6 @@ import "bootstrap-daterangepicker/daterangepicker.css";
 import './App.less';
 
 class App extends React.Component<any, any> {
-	componentDidMount() {
-
-		daterangepicker();
-		var foo = $(this.refs["date"]).daterangepicker();
-		console.log(foo);
-	}
-
 	render() {
 		console.log(moment, moment('3/1/2014'));
 		console.log($, daterangepicker);
@@ -24,7 +18,9 @@ class App extends React.Component<any, any> {
 		return (
 			<div>
 				<h1>App title</h1>
-				<input ref="date"/>
+				<DateRangePicker startDate={moment('1/1/2014')} endDate={moment('3/1/2014')}>
+					<div>Select date!</div>
+				</DateRangePicker>
 			</div>
 		);
 	}

@@ -6,7 +6,9 @@
     "jquery": "~1.11.3",
     "lodash": "^3.10.0",
     "moment": "^2.11.1",
-    "react": "^0.14.4"
+    "react": "^0.14.4",
+    "react-bootstrap": "^0.28.2",
+    "react-bootstrap-daterangepicker": "^1.0.6"
   },
   "devDependencies": {
     "autoprefixer": "^6.0.0",
